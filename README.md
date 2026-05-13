@@ -2,7 +2,7 @@
 ## Description
 Emulators-Uncertain-Sources is a repository designed to facilitate training of neural networks on MODFLOW inputs and outputs for scenarios with changing source timing and location, namely U-FNO and Attention U-Net. It can be adapted for any image training purpose. This was based on the original U-FNOB source code by Meray et al. 2024, but it has been significantly adapted for Morphew et al. 2026. We acknowledge that the work to produce this repository and paper submission was funded by Neptune and Company's internal research and development budget.
 
-## Modesl
+## Models
 - `U_FNO.py` contains U-FNO code modified from Meray et al. 2024's U-FNOB code. Modifications were mainly to fix broken references; the model's architecture remains mostly untouched.
 - `AU_NET.py` contains an attention u-net model used for comparison to U-FNO. AU-Net was used to interrogate the following question: how well does the FNO perform to "traditional" CNNs?
 
